@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "Bash(.venv\\\\Scripts\\\\python.exe:*)",
+      "Bash(\".venv/Scripts/python.exe\" -m pip list)",
+      "WebSearch",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m pip install:*)",
+      "Bash(\".venv/Scripts/python.exe\" -m pip install httpx)",
+      "Bash(cmd:*)",
+      "Bash(\".venv/Scripts/python.exe\" main.py)",
+      "Bash(\".venv/Scripts/python.exe\" -m py_compile api/dify_client.py)",
+      "Bash(python:*)",
+      "Bash(findstr:*)",
+      "Bash(.venvScriptspython.exe:*)"
+    ]
+  }
+}
